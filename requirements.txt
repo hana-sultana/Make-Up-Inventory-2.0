@@ -2,7 +2,8 @@ flask
 flask-cors
 gunicorn
 python-dotenv
-mediapipe
+pytesseract
+mediapipe==0.10.9
 opencv-python-headless
 Pillow
 numpy
