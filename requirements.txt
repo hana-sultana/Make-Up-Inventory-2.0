@@ -1,0 +1,10 @@
+flask
+flask-cors
+gunicorn
+python-dotenv
+mediapipe
+opencv-python-headless
+Pillow
+numpy
+scikit-learn
+requests
