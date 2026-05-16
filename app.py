@@ -93,8 +93,11 @@ ALLOWED_ORIGINS = [
     os.environ.get("FRONTEND_URL", "http://localhost:3000"),
     "http://localhost:5000",
     "http://127.0.0.1:5000",
+    "https://make-up-inventory-2-0-2.onrender.com",
+    "https://*.onrender.com",
+    "https://*.netlify.app",
 ]
-CORS(app, origins=ALLOWED_ORIGINS)
+CORS(app, origins="*")
 
 mp_face_mesh = mp.solutions.face_mesh
 LEFT_CHEEK   = [234,93,132,58,172,136,150,149,176,148,152]
