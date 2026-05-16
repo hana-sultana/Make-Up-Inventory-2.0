@@ -1,4 +1,4 @@
-# ✨ Glam Vault — Full Stack Setup
+# ✨ MHana's Make up inventory — Full Stack Setup
 
 ## What's inside
 - `app.py`           — Python Flask backend with real ML
