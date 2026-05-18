@@ -714,7 +714,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--nude);color:var(--charcoa
 <script>
 const API = window.location.hostname==='localhost'||window.location.hostname==='127.0.0.1'
   ? 'http://localhost:5000'
-  : 'https://make-up-inventory-2-0-2.onrender.com';
+  : 'https://make-up-inventory.onrender.com';
 let currentUser=null, users=JSON.parse(localStorage.getItem('glamvault_users')||'{}');
 let currentIdentified=null, currentImageData=null, activeFilter='all';
 let cameraStream=null, faceImageData=null, faceAnalysisResult=null;
