@@ -1,4 +1,4 @@
-# ✨ Glam Vault — Your Makeup Inventory
+#  Glam Vault — Your Makeup Inventory
 
 A full-stack makeup inventory app powered by computational facial mapping models and real ML libraries.
 
