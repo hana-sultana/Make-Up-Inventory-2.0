@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title> Glam Vault</title>
+<title>✨ Glam Vault</title>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
 :root{--rose:#D4547E;--rose-light:#FBEAF0;--rose-dark:#72243E;--blush:#F4C0D1;--nude:#F5EDE8;--gold:#C9996B;--gold-light:#FAF0E8;--charcoal:#2C2424;--muted:#8C7B7B;--border:rgba(212,84,126,0.15);--border-strong:rgba(212,84,126,0.3);--shadow:0 2px 20px rgba(212,84,126,0.08);--radius:16px;--radius-sm:10px;}
@@ -275,7 +275,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--nude);color:var(--charcoa
 <!-- ONBOARDING -->
 <div id="onboarding-screen" class="screen">
   <div class="ob-topbar">
-    <div class="ob-wordmark"> Make up IO</div>
+    <div class="ob-wordmark">✨ Make up IO</div>
     <div class="ob-user">
       <div class="ob-avatar" id="ob-avatar">?</div>
       <span id="ob-name"></span>
@@ -294,7 +294,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--nude);color:var(--charcoa
   <div class="ob-body">
     <div id="ob-pane-0" class="ob-pane active">
       <div class="ob-card">
-        <div class="ob-welcome-icon"></div>
+        <div class="ob-welcome-icon">✨</div>
         <div class="ob-title" id="ob-welcome-title">Welcome to Glam Vault!</div>
         <div class="ob-sub">Let's set up your personal makeup sanctuary in just a few steps. You can skip anything and come back to it later.</div>
         <div class="ob-step-cards">
@@ -381,12 +381,12 @@ body{font-family:'DM Sans',sans-serif;background:var(--nude);color:var(--charcoa
     </div>
     <div id="ob-pane-4" class="ob-pane">
       <div class="ob-card">
-        <div class="ob-welcome-icon" id="ob-done-icon"></div>
+        <div class="ob-welcome-icon" id="ob-done-icon">🎉</div>
         <div class="ob-title" id="ob-done-title">You're all set!</div>
         <div class="ob-sub" id="ob-done-sub">Your Glam Vault is ready. Here's what we set up:</div>
         <div class="ob-done-summary" id="ob-done-summary"></div>
         <div class="ob-skipped-box" id="ob-skipped-box" style="display:none;"><strong>Skipped a few things — no worries!</strong><ul id="ob-skipped-list"></ul></div>
-        <button class="ob-btn" onclick="obFinish()">Take me to my vault </button>
+        <button class="ob-btn" onclick="obFinish()">Take me to my vault ✨</button>
       </div>
     </div>
   </div>
@@ -395,7 +395,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--nude);color:var(--charcoa
 <!-- APP -->
 <div id="app-screen" class="screen">
   <div class="topbar">
-    <div class="wordmark"> Glam Vault <span class="server-badge" id="server-badge">⬤ checking…</span></div>
+    <div class="wordmark">✨ Glam Vault <span class="server-badge" id="server-badge">⬤ checking…</span></div>
     <div class="topbar-right">
       <div class="user-badge"><div class="avatar" id="user-avatar">?</div><span id="user-name-display"></span></div>
       <button class="btn-ghost" onclick="handleLogout()">Sign out</button>
@@ -406,7 +406,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--nude);color:var(--charcoa
     <button class="nav-tab" onclick="switchTab('face')">🪞 Face Analysis</button>
     <button class="nav-tab" onclick="switchTab('inventory')">💄 My Inventory</button>
     <button class="nav-tab" onclick="switchTab('shades')">🎨 My Shades</button>
-    <button class="nav-tab" onclick="switchTab('recs')"> AI Picks</button>
+    <button class="nav-tab" onclick="switchTab('recs')">✨ AI Picks</button>
   </div>
   <div class="content">
 
@@ -439,7 +439,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--nude);color:var(--charcoa
 
         <!-- CORRECTION PANEL -->
         <div class="correction-panel">
-          <div class="correction-panel-title"> Not quite right? Fix it here:</div>
+          <div class="correction-panel-title">✏️ Not quite right? Fix it here:</div>
           <div class="correction-grid">
             <div><label class="correction-label">Brand</label><input type="text" id="edit-brand" class="correction-input" placeholder="e.g. Rhode"></div>
             <div><label class="correction-label">Product Name</label><input type="text" id="edit-name" class="correction-input" placeholder="e.g. Peptide Lip Treatment"></div>
@@ -525,7 +525,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--nude);color:var(--charcoa
       </div>
       <div id="face-upload-section">
         <div style="background:white;border-radius:var(--radius);border:1px solid var(--border);padding:2rem;margin-bottom:1.5rem;">
-          <div class="ml-badge">Your facial features are analyzed through trained computational algorthims</div>
+          <div class="ml-badge">🧠 Powered by MediaPipe + OpenCV + scikit-learn</div>
           <h4 style="font-size:16px;font-weight:500;margin-bottom:8px;">How the ML analysis works</h4>
           <p style="font-size:14px;color:var(--muted);line-height:1.6;margin-bottom:1.25rem;">The Python backend uses <strong>MediaPipe Face Mesh</strong> to detect 468 facial landmarks, then applies geometric algorithms to classify your face shape, <strong>OpenCV</strong> color analysis for skin undertone, and <strong>scikit-learn KMeans</strong> for dominant color extraction.</p>
           <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;">
@@ -561,7 +561,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--nude);color:var(--charcoa
           <div class="face-feature-grid" id="face-feature-grid"></div>
           <div class="ai-response" id="face-ai-narrative" style="margin-top:1rem;"></div>
           <div style="margin-top:1.5rem;display:flex;gap:10px;flex-wrap:wrap;">
-            <button class="btn-sm btn-rose" onclick="showLooks()"> View My Looks</button>
+            <button class="btn-sm btn-rose" onclick="showLooks()">✨ View My Looks</button>
             <button class="btn-sm btn-outline" onclick="resetFaceAnalysis()">Try a Different Photo</button>
           </div>
         </div>
@@ -647,14 +647,14 @@ body{font-family:'DM Sans',sans-serif;background:var(--nude);color:var(--charcoa
     <div id="recs-tab" class="tab-content">
       <div class="section-header">
         <div><div class="section-title">AI Picks For You</div><div class="section-sub">Personalized by shade profile + face analysis</div></div>
-        <button class="btn-sm btn-rose" onclick="fetchRecommendations()">Refresh </button>
+        <button class="btn-sm btn-rose" onclick="fetchRecommendations()">Refresh ✨</button>
       </div>
       <div class="reco-intro">
-        <h3>Your personal makeup stylist </h3>
+        <h3>Your personal makeup stylist 💫</h3>
         <p id="reco-intro-text">Complete your shade profile to get recommendations tailored to you.</p>
       </div>
       <div class="reco-grid" id="reco-grid">
-        <div class="empty-state" style="grid-column:1/-1"><div class="empty-icon"></div><h3>Set up your shade profile first</h3><p>Head to My Shades to get started</p></div>
+        <div class="empty-state" style="grid-column:1/-1"><div class="empty-icon">✨</div><h3>Set up your shade profile first</h3><p>Head to My Shades to get started</p></div>
       </div>
     </div>
 
@@ -714,7 +714,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--nude);color:var(--charcoa
 <script>
 const API = window.location.hostname==='localhost'||window.location.hostname==='127.0.0.1'
   ? 'http://localhost:5000'
-  : 'https://make-up-inventory-2-0-2.onrender.com';';
+  : 'https://make-up-inventory-2-0-2.onrender.com';
 let currentUser=null, users=JSON.parse(localStorage.getItem('glamvault_users')||'{}');
 let currentIdentified=null, currentImageData=null, activeFilter='all';
 let cameraStream=null, faceImageData=null, faceAnalysisResult=null;
@@ -768,7 +768,7 @@ function obSaveShades(){currentUser.shadeProfile={skinTone:obShadeTemp.skinTone|
 function obBuildDone(){
   const faceOk=!obSkipped.includes(1),shadesOk=!obSkipped.includes(2),productsOk=!obSkipped.includes(3);
   const allSkipped=obSkipped.length===3,noneSkipped=obSkipped.length===0;
-  document.getElementById('ob-done-icon').textContent=noneSkipped?'🎉':allSkipped?'':'🌸';
+  document.getElementById('ob-done-icon').textContent=noneSkipped?'🎉':allSkipped?'✨':'🌸';
   document.getElementById('ob-done-title').textContent=noneSkipped?"You're all set!":allSkipped?"Your vault is ready!":"Great start!";
   document.getElementById('ob-done-sub').textContent=noneSkipped?"Everything is set up — your vault is ready to use.":allSkipped?"You skipped setup for now — complete it any time from within the app.":"You can complete the skipped steps any time from within the app.";
   document.getElementById('ob-done-summary').innerHTML=`<div class="ob-stat"><div class="ob-stat-val">${faceOk?'✅':'—'}</div><div class="ob-stat-label">Face analyzed</div></div><div class="ob-stat"><div class="ob-stat-val">${shadesOk?'✅':'—'}</div><div class="ob-stat-label">Shade profile saved</div></div><div class="ob-stat"><div class="ob-stat-val">${productsOk?(currentUser.inventory||[]).length:'0'}</div><div class="ob-stat-label">Products added</div></div><div class="ob-stat"><div class="ob-stat-val">✨</div><div class="ob-stat-label">AI picks ready</div></div>`;
